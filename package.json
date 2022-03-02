@@ -1,5 +1,29 @@
 {
   "dependencies": {
     "bootstrap": "^4.3.1"
-  }
+  },
+  "name": "food_fest",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RauchDavis13/Food_Fest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RauchDavis13/Food_Fest/issues"
+  },
+  "homepage": "https://github.com/RauchDavis13/Food_Fest#readme"
 }
