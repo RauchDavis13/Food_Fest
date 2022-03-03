@@ -1,7 +1,13 @@
-require("bootstrap");
-const createEl = require("./domMethods");
+require('bootstrap');
 
-$(document).ready( function() {
+if (window.location.href.indexOf("tickets") > -1) {
+
+  const purchaseBtn = document.getElementById("purchaseBtn");
+  const purchaseEmail = document.getElementById("purchaseEmail");
+  const modalEl = document.querySelector(".modal-content");
+  const modalBodyEl = document.querySelector(".modal-body");
+  const modalFooterEl = document.querySelector(".modal-footer");
+
 
   function purchaseTicket () {
 
@@ -16,4 +22,4 @@ $(document).ready( function() {
     
   }
   purchaseBtn.addEventListener("click", purchaseTicket);
-})
+}
